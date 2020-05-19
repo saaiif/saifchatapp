@@ -1,0 +1,38 @@
+.form {
+	display: flex;
+	border-top: 2px solid #d3d3d3;
+}
+
+.input {
+	border: none;
+	border-radius: 0;
+	padding: 15px;
+	width: 80%;
+	font-size: 1.1em;
+	border-radius: 4px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+	outline: none;
+}
+
+.sendButton {
+	color: #ddd !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #2979ff;
+	padding: 5px 10px;
+	display: inline-block;
+	border: none;
+	width: 20%;
+	border-bottom-right-radius: 4px;
+	cursor: pointer;
+}
+.sendImg {
+	width: 30px;
+	color: red !important;
+}
+.sendImg path {
+}
